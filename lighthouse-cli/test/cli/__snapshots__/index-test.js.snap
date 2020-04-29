@@ -680,27 +680,27 @@ Object {
     "best-practices": Object {
       "auditRefs": Array [
         Object {
-          "group": "best-practices-safety",
+          "group": "best-practices-trust-safety",
           "id": "is-on-https",
           "weight": 1,
         },
         Object {
-          "group": "best-practices-safety",
+          "group": "best-practices-trust-safety",
           "id": "external-anchors-use-rel-noopener",
           "weight": 1,
         },
         Object {
-          "group": "best-practices-safety",
+          "group": "best-practices-trust-safety",
           "id": "geolocation-on-start",
           "weight": 1,
         },
         Object {
-          "group": "best-practices-safety",
+          "group": "best-practices-trust-safety",
           "id": "notification-on-start",
           "weight": 1,
         },
         Object {
-          "group": "best-practices-safety",
+          "group": "best-practices-trust-safety",
           "id": "no-vulnerable-libraries",
           "weight": 1,
         },
@@ -720,12 +720,12 @@ Object {
           "weight": 1,
         },
         Object {
-          "group": "best-practices-browser",
+          "group": "best-practices-browser-compat",
           "id": "doctype",
           "weight": 1,
         },
         Object {
-          "group": "best-practices-browser",
+          "group": "best-practices-browser-compat",
           "id": "charset",
           "weight": 1,
         },
@@ -1184,14 +1184,14 @@ Object {
       "description": "These are opportunities to to improve the experience of reading tabular or list data using assistive technology, like a screen reader.",
       "title": "Tables and lists",
     },
-    "best-practices-browser": Object {
+    "best-practices-browser-compat": Object {
       "title": "Browser Compatibility",
     },
     "best-practices-general": Object {
       "title": "General",
     },
-    "best-practices-safety": Object {
-      "title": "Trust & Safety",
+    "best-practices-trust-safety": Object {
+      "title": "Trust and Safety",
     },
     "best-practices-ux": Object {
       "title": "User Experience",
@@ -1459,14 +1459,14 @@ Object {
       "description": "These are opportunities to to improve the experience of reading tabular or list data using assistive technology, like a screen reader.",
       "title": "Tables and lists",
     },
-    "best-practices-browser": Object {
+    "best-practices-browser-compat": Object {
       "title": "Browser Compatibility",
     },
     "best-practices-general": Object {
       "title": "General",
     },
-    "best-practices-safety": Object {
-      "title": "Trust & Safety",
+    "best-practices-trust-safety": Object {
+      "title": "Trust and Safety",
     },
     "best-practices-ux": Object {
       "title": "User Experience",
