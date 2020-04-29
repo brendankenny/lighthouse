@@ -3076,7 +3076,7 @@
     },
     "no-document-write": {
       "id": "no-document-write",
-      "title": "Uses `document.write()`",
+      "title": "Avoid `document.write()`",
       "description": "For users on slow connections, external scripts dynamically injected via `document.write()` can delay page load by tens of seconds. [Learn more](https://web.dev/no-document-write).",
       "score": 0,
       "scoreDisplayMode": "binary",
@@ -4188,27 +4188,27 @@
         {
           "id": "is-on-https",
           "weight": 1,
-          "group": "best-practices-safety"
+          "group": "best-practices-trust-safety"
         },
         {
           "id": "external-anchors-use-rel-noopener",
           "weight": 1,
-          "group": "best-practices-safety"
+          "group": "best-practices-trust-safety"
         },
         {
           "id": "geolocation-on-start",
           "weight": 1,
-          "group": "best-practices-safety"
+          "group": "best-practices-trust-safety"
         },
         {
           "id": "notification-on-start",
           "weight": 1,
-          "group": "best-practices-safety"
+          "group": "best-practices-trust-safety"
         },
         {
           "id": "no-vulnerable-libraries",
           "weight": 1,
-          "group": "best-practices-safety"
+          "group": "best-practices-trust-safety"
         },
         {
           "id": "password-inputs-can-be-pasted-into",
@@ -4228,12 +4228,12 @@
         {
           "id": "doctype",
           "weight": 1,
-          "group": "best-practices-browser"
+          "group": "best-practices-browser-compat"
         },
         {
           "id": "charset",
           "weight": 1,
-          "group": "best-practices-browser"
+          "group": "best-practices-browser-compat"
         },
         {
           "id": "appcache-manifest",
@@ -4498,13 +4498,13 @@
       "title": "Crawling and Indexing",
       "description": "To appear in search results, crawlers need access to your app."
     },
-    "best-practices-safety": {
-      "title": "Trust & Safety"
+    "best-practices-trust-safety": {
+      "title": "Trust and Safety"
     },
     "best-practices-ux": {
       "title": "User Experience"
     },
-    "best-practices-browser": {
+    "best-practices-browser-compat": {
       "title": "Browser Compatibility"
     },
     "best-practices-general": {
@@ -7001,14 +7001,14 @@
       "lighthouse-core/config/default-config.js | seoCrawlingGroupDescription": [
         "categoryGroups[seo-crawl].description"
       ],
-      "lighthouse-core/config/default-config.js | bestPracticesSafetyGroupTitle": [
-        "categoryGroups[best-practices-safety].title"
+      "lighthouse-core/config/default-config.js | bestPracticesTrustSafetyGroupTitle": [
+        "categoryGroups[best-practices-trust-safety].title"
       ],
       "lighthouse-core/config/default-config.js | bestPracticesUXGroupTitle": [
         "categoryGroups[best-practices-ux].title"
       ],
-      "lighthouse-core/config/default-config.js | bestPracticesBrowserGroupTitle": [
-        "categoryGroups[best-practices-browser].title"
+      "lighthouse-core/config/default-config.js | bestPracticesBrowserCompatGroupTitle": [
+        "categoryGroups[best-practices-browser-compat].title"
       ],
       "lighthouse-core/config/default-config.js | bestPracticesGeneralGroupTitle": [
         "categoryGroups[best-practices-general].title"

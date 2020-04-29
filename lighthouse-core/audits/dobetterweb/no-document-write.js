@@ -35,7 +35,7 @@ const UIStrings = {
   /** Title of a Lighthouse audit that provides detail on the page's use of the `document.write` API. This descriptive title is shown to users when the page does not use `document.write`. */
   title: 'Avoids `document.write()`',
   /** Title of a Lighthouse audit that provides detail on the page's use of the `document.write` API. This descriptive title is shown to users when the page does use `document.write`. */
-  failureTitle: 'Uses `document.write()`',
+  failureTitle: 'Avoid `document.write()`',
   /** Description of a Lighthouse audit that tells the user why they should avoid `document.write`. This is displayed after a user expands the section to see more. No character length limits. 'Learn More' becomes link text to additional documentation. */
   description: 'For users on slow connections, external scripts dynamically injected via ' +
       '`document.write()` can delay page load by tens of seconds. ' +
