@@ -1,5 +1,7 @@
 {
   "ci": {
-    "staticDistDir": "./viewer/"
+    "collect": {
+      "staticDistDir": "./viewer/"
+    }
   }
 }
