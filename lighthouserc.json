@@ -1,7 +1,11 @@
 {
   "ci": {
     "collect": {
-      "staticDistDir": "./viewer/"
+      "staticDistDir": "./viewer/",
+      "url": [
+        "http://localhost:39685/index.html",
+        "http://localhost:39685/index.html?gist=d570a1aa285c5d1d97bbda10b92fb97f"
+      ]
     }
   }
 }
